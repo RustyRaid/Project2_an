@@ -1,0 +1,71 @@
+@media screen and (max-width: 1300px) {
+    .center {
+        width: 90%;
+    }
+    footer {
+        display: none;
+    }
+    .text_left {
+        float: none;
+    }
+    .text_right {
+        float: none;
+    }
+    .card {
+        width: 49%;
+    }
+    .card_img img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .card_img .pic_caption h4 {
+        padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text_left {
+        width: 100%;
+    }
+    .text_right {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 72px;
+        line-height: 72px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .card {
+        width: 100%;
+    }
+    .card p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 38px;
+        line-height: 38px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .text_right p {
+        font-size: 28px;
+    }
+    .text_right {
+        margin-top: 30px;
+    }
+    .sub_title {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .card_img .pic_caption h4 {
+        font-size: 32px;
+        padding-top: 21%;
+    }
+}
